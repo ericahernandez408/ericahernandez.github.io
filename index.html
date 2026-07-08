@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Erica’s Web Programming Lab 02</title>
-  <style>
-    body {
-      background-color: #f2f7ff; /* light blue background */
-      font-family: Arial, sans-serif;
-    }
-    table {
-      border-collapse: collapse;
-      width: 80%;
-      margin: 20px auto;
-      background: white;
-      padding: 20px;
-      border: 2px solid #ccc;
-    }
-    td {
-      padding: 15px;
-      vertical-align: top;
-    }
-    img {
-      width: 250px;
-      border-radius: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Erica's Lab 02 Webpage</title>
+
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d0e8ff;
+        }
+    </style>
 </head>
 
 <body>
 
-  <h1>Welcome to My Lab 02 Webpage</h1>
+    <h1>Welcome to My Lab 02 Page</h1>
 
-  <table>
-    <tr>
-      <td>
-        <h2>About This Page</h2>
-        <p>This webpage demonstrates several HTML concepts including lists, images, tables, and hyperlinks.</p>
+    <!-- Hyperlink -->
+    <p>Visit one of my favorite websites:  
+        <a href="https://www.epcc.edu" target="_blank">El Paso Community College</a>
+    </p>
 
-        <h3>Useful Link</h3>
-        <p>
-          Visit <a href="https://creativecommons.org/" target="_blank">Creative Commons</a>  
-          to learn more about image licensing.
-        </p>
+    <!-- Ordered List -->
+    <h2>My Daily Routine (Ordered List)</h2>
+    <ol>
+        <li>Wake up</li>
+        <li>Drink coffee</li>
+        <li>Study web programming</li>
+        <li>Go to work</li>
+    </ol>
 
-        <h3>My Ordered List</h3>
-        <ol>
-          <li>Wake up</li>
-          <li>Drink coffee</li>
-          <li>Write code</li>
-        </ol>
+    <!-- Unordered List -->
+    <h2>My Favorite Snacks (Unordered List)</h2>
+    <ul>
+        <li>Apples</li>
+        <li>Yogurt</li>
+        <li>Granola bars</li>
+    </ul>
 
-        <h3>My Unordered List</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
-      </td>
+    <!-- Image (must be uncopyrighted or CC licensed) -->
+    <h2>My Image</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Frontera_Sunset.jpg/640px-Frontera_Sunset.jpg" 
+         alt="Sunset" width="300">
 
-      <td>
-        <h2>My Image</h2>
-        <p>This image is licensed under Creative Commons and safe to use.</p>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg"
-     alt="Mountain landscape (Creative Commons image)">
-      </td>
-    </tr>
-  </table>
+    <!-- Table -->
+    <h2>Simple Table</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>ITSE 1311</td>
+            <td>Monday</td>
+            <td>10:00 AM</td>
+        </tr>
+        <tr>
+            <td>Math 1314</td>
+            <td>Wednesday</td>
+            <td>1:00 PM</td>
+        </tr>
+    </table>
 
 </body>
 </html>
-
-
