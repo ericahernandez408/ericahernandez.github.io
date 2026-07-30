@@ -4,46 +4,43 @@
     <meta charset="UTF-8">
     <title>Erica's Lab 02 Webpage</title>
 
-    <style>
-        body {
-            background-color: #e6ccff; /* Light purple background */
-            font-family: Arial, sans-serif;
-        }
-
-        img {
-            margin-top: 15px;
-        }
-    </style>
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <h1>Lab 02</h1>
 
-    <p>Visit one of my favorite websites:  
+    <p>Visit one of my favorite websites:
         <a href="https://www.epcc.edu" target="_blank">El Paso Community College</a>
     </p>
 
     <!-- Ordered List -->
-    <h2>How to Order Snacks</h2>
-    <ol>
-        <li>Browse the menu</li>
-        <li>Select your favorite snack</li>
-        <li>Place order by message</li>
-        <li>Enjoy your snacks!</li>
-    </ol>
+    <div class="steps">
+        <h2>How to Order Snacks</h2>
+        <ol>
+            <li>Browse the menu</li>
+            <li>Select your favorite snack</li>
+            <li>Place order by message</li>
+            <li>Enjoy your snacks!</li>
+        </ol>
+    </div>
 
     <!-- Unordered List -->
-    <h2>My Favorite Snacks</h2>
-    <ul>
-        <li>Strawberries</li>
-        <li>Yogurt</li>
-        <li>Granola bars</li>
-    </ul>
+    <div class="snacks">
+        <h2>My Favorite Snacks</h2>
+        <ul>
+            <li>Strawberries</li>
+            <li>Yogurt</li>
+            <li>Granola bars</li>
+        </ul>
+    </div>
 
-    <h2>My Image</h2>
-    <img src="Sunset.jpg" alt="Sunset" width="300">
-
+    <!-- Image Section -->
+    <div class="image-section">
+        <h2>My Image</h2>
+        <img src="Sunset.jpg" alt="Sunset">
+    </div>
 
 </body>
 </html>
