@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Erica's Lab 03 Webpage</title>
+    <title>Erica's Lab 04 Webpage</title>
 
-    <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Lab 03</h1>
+    <h1>Lab 04</h1>
+
+    <button id="colorBtn">Change Background Color</button>
 
     <p>Visit one of my favorite websites:
         <a href="https://www.epcc.edu" target="_blank">El Paso Community College</a>
     </p>
 
-    <!-- Ordered List -->
     <div class="steps">
         <h2>How to Order Snacks</h2>
         <ol>
@@ -26,7 +26,6 @@
         </ol>
     </div>
 
-    <!-- Unordered List -->
     <div class="snacks">
         <h2>My Favorite Snacks</h2>
         <ul>
@@ -36,11 +35,18 @@
         </ul>
     </div>
 
-    <!-- Image Section -->
     <div class="image-section">
         <h2>My Image</h2>
         <img src="Sunset.jpg" alt="Sunset">
     </div>
 
+    <script>
+        const btn = document.getElementById("colorBtn");
+
+        btn.addEventListener("click", function() {
+            const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = randomColor;
+        });
+    </script>
 </body>
 </html>
